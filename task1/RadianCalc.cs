@@ -41,7 +41,7 @@ namespace task1
             }
             set
             {
-                min += value / 60;
+                Min += value / 60;
                 sec = value % 60;
             }
         }
