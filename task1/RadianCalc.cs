@@ -47,9 +47,9 @@ namespace task1
         }
         public RadianCalc(int gradus, int min, int sec)
         {
-            this.gradus = gradus;
-            this.min = min;
-            this.sec = sec;
+            this.Gradus = gradus;
+            this.Min = min;
+            this.Sec = sec;
         }
         public double ToRadiant()
         {
